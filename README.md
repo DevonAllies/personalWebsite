@@ -60,7 +60,7 @@ Here's a brief overview of the key files and directories:
 ## Live Website
 
 You can view the live version of this website deployed at:
-[Link to Live Site](`https://devonallies.github.io/personalWebsite/`)
+[Link to Live Site]: `https://devonallies.github.io/personalWebsite/`
 
 ---
 
@@ -68,5 +68,5 @@ You can view the live version of this website deployed at:
 
 Feel free to connect with me for collaborations, inquiries, or just to say hello!
 
-* **Email:** [alliesdl@gmail.com]
-* **[LinkedIn](https://www.linkedin.com/in/devonallies/):**
+* **Email:** `alliesdl@gmail.com`
+* **LinkedIn:** `https://www.linkedin.com/in/devonallies/)`
