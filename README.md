@@ -28,7 +28,6 @@ This website includes the following key sections and functionalities:
     * Contextual links to past organizations (e.g., TB Host Genetics Group, The BioVac Institute) directly on the Experience page.
 * **Responsive Design:** Optimized for viewing across various devices (desktops, tablets, mobile).
 * **Custom Styling:** Enhanced visual appearance using custom CSS.
-* **Interactive Elements:** Utilizes JavaScript for subtle animations and potential future interactive features.
 
 ---
 
