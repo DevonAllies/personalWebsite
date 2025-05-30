@@ -60,7 +60,7 @@ Here's a brief overview of the key files and directories:
 ## Live Website
 
 You can view the live version of this website deployed at:
-[Link to Live Site](e.g., `https://devonallies.github.io/personal-website/`)
+[Link to Live Site](`https://devonallies.github.io/personalWebsite/`)
 
 ---
 
