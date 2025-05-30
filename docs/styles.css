@@ -1,0 +1,68 @@
+/* css styles */
+
+/* --- Body Background Color --- */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  color: 333;
+  font-family: Arial, sans-serif; /* Default font */
+  line-height: 1.7; /* Default line height for readability */
+}
+
+/* --- Heading Colors --- */
+h1 {
+  color: #0056b3; /* Dark blue for main headings */ 
+  text-align: center; /* Centered headings */
+  font-size: 2.8em; /* Larger font size for main headings */
+  margin-top: 2em; /* Margin for spacing */
+  margin-bottom: 1.2em; /* Margin for spacing */
+  line-height: 1.2em; /* Line height for main headings */
+}
+
+h2 {
+  color: #007bff; /* Lighter blue for subheadings */
+  text-align: center; /* Centered subheadings */
+  font-size: 2.0em; /* Slightly smaller than main headings */
+  margin-top: 1.8em; /* Margin for spacing */
+  margin-bottom: 0.8em; /* Margin for spacing */
+  line-height: 1.3; /* Line height for subheadings */
+}
+
+h3 {
+  color: #444; /* Gray for smaller headings */
+  text-align: center; /* Centered smaller headings */
+  font-size: 1.5em; /* Smaller font size for smaller headings */
+  margin-top: 1.5em; /* Margin for spacing */
+  margin-bottom: 0.7em; /* Margin for spacing */
+  line-height: 1.4; /* Line height for smaller headings */
+}
+
+/* --- Paragraph Text Color --- */
+p {
+  color: #555; /* Dark gray for paragraph text */
+  line-height: 1.7; /* Improved readability with line height */
+  margin-bottom: 1.5em; /* Spacing between paragraphs */
+}
+
+ul {
+  margin-bottom: 1.5em; /* Spacing below lists */
+  padding-left: 20px; /* Indentation for list items */
+}
+
+ul li {
+  line-height: 1.7; /* Line height for list items */
+  margin-bottom: 0.6em; /* Spacing between list items */
+}
+
+a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* No underline for links */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+a:visited {
+  color: #6c757d; /* Lighter gray for visited links */
+}

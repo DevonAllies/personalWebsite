@@ -1,0 +1,28 @@
+## About Devon-Lee Allies
+
+Welcome to my professional space! I'm Devon-Lee Allies, a highly experienced and passionate medical technologist with over a decade of dedicated expertise in the dynamic fields of immunology. My career journey has been marked by a steadfast commitment to advancing healthcare through rigorous scientific inquiry and innovative problem-solving, particularly within the realm of tuberculosis research.
+
+Currently, I am expanding my foundational knowledge by pursuing an MSc in Computational Biology at Stellenbosch University, building upon my BSc Honours in Computational Biology from the same institution and a National Diploma in Biomedical Technology from the Cape Peninsula University of Technology. My commitment to excellence is further underscored by achieving an A+ pass mark in the Health Professions Council of South Africa's Immunology Board Exam.
+
+### My Journey & Expertise
+
+Throughout my career, I've had the privilege of contributing to both academic and corporate laboratory environments, playing a pivotal role in numerous clinical studies. This has involved coordinating complex laboratory activities, conducting advanced immunological tests, and supporting a wide array of research initiatives. My work has directly contributed to several research papers published in internationally recognized journals, including PubMed, the National Library of Medicine, and BMC Infectious Diseases, with my research being cited 62 times in the past five years – a testament to its impact within the scientific community.
+
+My professional experience spans diverse roles, from a Project Coordinator at Stellenbosch University, where I've managed significant clinical study budgets and timelines, to a Technical Laboratory Officer, specializing in assay preparation, PBMC isolation, and the processing of various clinical samples. Before this, I gained invaluable insights as a Biological Quality Supervisor at The Biovac Institute, overseeing quality control processes in biopharmaceutical manufacturing, and as a Research Associate at Synexa Life Sciences, where I specialized in developing and validating new assays. My foundational experience as a Medical Technologist Trainee at the National Health Laboratory Services laid the groundwork for my career in accredited lab environments.
+
+### Key Skills & Contributions
+
+I bring a comprehensive skill set to every endeavor, blending scientific acumen with strong project management and leadership capabilities. My specialist skills include:
+
+* **Immunological Research & Flow Cytometry:** Expert in assay preparation, PBMC isolation, and processing clinical samples, with proficiency in using FACSCantoII for sample staining and acquisition, and FlowJo for data analysis.
+* **Bioinformatics & Computational Biology:** Currently enhancing my skills in Python, R, Linux, and Nexflow, with practical experience in pipeline design. I successfully created and implemented an automated dashboard to streamline field data logging and retrieval for study coordinators and principal investigators.
+* **Project Management & Clinical Research Coordination:** Adept at managing project schedules, budgets, and deliverables for clinical studies, tracking progress, and effectively communicating with diverse stakeholders.
+* **Quality Assurance & Compliance:** Experienced in managing quality control processes and SOP development in ISO-accredited lab environments, ensuring compliance with industry standards and regulatory requirements.
+* **Leadership & Communication:** Proven ability to lead teams, manage stakeholder relationships, and communicate complex scientific information clearly and effectively, both verbally and in writing.
+
+I am driven by a desire to apply my deep knowledge and skills in challenging roles within internationally accredited laboratories, contributing to advancements in bioinformatics and computational biology to drive innovation in healthcare and medical research.
+
+### Resume:
+- My full resume is available [here](files/Devon-Lee%20Allies%20Cirriculum%20Vitae.pdf).
+
+Thank you for visiting!

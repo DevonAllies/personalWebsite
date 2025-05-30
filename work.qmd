@@ -1,0 +1,43 @@
+---
+format:
+  html:
+    other-links:
+      - text: "TB Host Genetics Group"
+        href: "http://www.sun.ac.za/english/faculty/healthsciences/Molecular_Biology_Human_Genetics/tbhostgenetics"
+      - text: "The BioVac Institute"
+        href: "https://biovac.co.za/"
+      - text: "Synexa Life Sciences"
+        href: "https://synexagroup.com/"
+      - text: "National Health Laboratory Service"
+        href: "https://www.nhls.ac.za/"
+---
+## Division of Molecular Biology and Human Genetics
+* ### Project Coordinator:
+    * 2023 - Present: Project Coordinator at the Division of Molecular Biology and Human Genetics, Stellenbosch University.
+      - Coordinating clinical studies, ensuring data integrity, and facilitating collaboration among research teams.
+      - Tracking and reporting on project progress, identifying potential delays or roadblocks, and developing contingency plans.
+      - Communicating effectively with project stakeholders, including project sponsors, team members, and external partners.
+      
+* ### Technical Officer:
+    * 2016 - 2023: Technical Officer at the Division of Molecular Biology and Human Genetics, Stellenbosch University.
+      - As a Laboratory Technical Officer, I was responsible for providing technical support in a laboratory setting. My main duties included preparing samples for analysis, maintaining laboratory equipment, and conducting experiments. I also assisted in data analysis.
+      - In addition to my technical responsibilities, I was also responsible for ensuring that laboratory procedures and safety protocols were followed at all times. I collaborated closely with other laboratory staff, including laboratory managers and scientists, to ensure that all laboratory activities were completed efficiently and effectively.
+
+## The BioVac Institute
+* ### Biology Testing Supervisor:
+    * 2014 - 2015: Biology Testing Supervisor at The BioVac Institute.
+      - Supervised and coordinated the testing of biological samples, ensuring compliance with quality standards and protocols.
+      - Managed a team of laboratory technicians, providing training and support to ensure accurate and efficient testing processes.
+      - Collaborated with cross-functional teams to optimize testing workflows and improve overall laboratory efficiency.
+      
+## Synexa Life Sciences
+* ### Research Associate:
+    * 2012 - 2014: Research Associate at Synexa Life Sciences.
+      - Conducted research and analysis in a laboratory setting, focusing on immunological studies.
+      - Assisted in the development and implementation of research protocols, ensuring adherence to scientific standards.
+      - Collaborated with senior researchers to analyze data and prepare reports on research findings.
+      
+## National Health Laboratory Service
+* ### Intern Medical Technologist:
+    * 2010 - 2012: Laboratory Technician at the National Health Laboratory Service.
+      - Performed routine laboratory tests and analyses, ensuring accuracy and reliability of results.
