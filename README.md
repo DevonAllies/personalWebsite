@@ -59,8 +59,7 @@ Here's a brief overview of the key files and directories:
 
 ## Live Website
 
-You can view the live version of this website deployed at:
-[Link to Live Site]: `https://devonallies.github.io/personalWebsite/`
+You can view the live version of this website deployed at: `https://devonallies.github.io/personalWebsite/`
 
 ---
 
