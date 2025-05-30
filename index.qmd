@@ -1,11 +1,47 @@
 ## Introduction:
 
-Hi, my name is Devon. I am currently a Master's student in the [TB Host Genetics Group](http://www.sun.ac.za/english/faculty/healthsciences/Molecular_Biology_Human_Genetics/tbhostgenetics) majoring in Bioinformatics & Computational Biology.
+Welcome to my website! This is a personal space where you'll find a blend of my professional pursuits in **bioinformatics and computational biology**, alongside my passion for high-speed **Formula 1** action and immersive flight simulation. Dive in to explore my work and interests.
 
-Outside of my studies, I enjoy sim racing, primarily [iRacing](https://www.iracing.com/), and flight simulators, mainly [X-Plane 12](https://www.x-plane.com/) These hobbies align with my constant need to learn and develop myself in a data-driven world.
+```{python}
+#| echo: false
+#| output: asis
+#| message: false
+#| warning: false
 
-With over a decade of experience spanning immunology, bioinformatics, and computational biology, I specialize in unraveling the complexities of tuberculosis. My work focuses on developing data-driven bioinformatics solutions and coordinating impactful clinical studies.
+import feedparser
+from datetime import datetime
 
-As a Project Coordinator at the Division of Molecular Biology and Human Genetics, I'm dedicated to streamlining research operations, ensuring impeccable data integrity, and fostering seamless collaboration among stakeholders.
+def get_rss_news(rss_url, num_articles=5):
+    try:
+        feed = feedparser.parse(rss_url)
+        news_items = []
+        for entry in feed.entries[:num_articles]:
+            title = entry.title
+            link = entry.link
+            # Try to get a structured date
+            try:
+                published_date = datetime.strptime(entry.published, '%a, %d %b %Y %H:%M:%S %z').strftime('%Y-%m-%d')
+            except (ValueError, KeyError):
+                published_date = getattr(entry, 'published', 'No date')
 
-I'm passionate about leveraging tools like Python, R, Power BI, and Nextflow to integrate bioinformatics and computational biology, ultimately aiming to drive scientific innovation and improve healthcare outcomes. Let's connect and explore how we can make a difference.
+            news_items.append({"title": title, "link": link, "date": published_date})
+        return news_items
+    except Exception as e:
+        print(f"Failed to fetch RSS feed: {e}")
+        return []
+
+f1_rss_url = "https://www.motorsport.com/rss/f1/news/"
+
+f1_news = get_rss_news(f1_rss_url)
+
+if f1_news:
+    print("## F1 News (via RSS)\n")
+    print("<ul class=\"f1-news-list\">") # Add a class to the ul for specific styling
+    for item in f1_news:
+        # Modified print statement to include span tags
+        print(f"  <li><span class=\"f1-news-title\"><a href=\"{item['link']}\">{item['title']}</a></span> <span class=\"f1-news-date\">- {item['date']}</span></li>")
+    print("</ul>")
+else:
+    print("## F1 News")
+    print("Could not retrieve latest F1 news from RSS feed at this time. (Check feed URL or internet connection)")
+```

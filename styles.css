@@ -82,3 +82,39 @@ a:visited {
   background-color: #0A66C2;
   font-family: "SF Pro Text", Helvetica, sans-serif;
 }
+
+/* src/stylesheet/suTheme.scss */
+
+/* src/stylesheet/suTheme.scss */
+
+/* ... (your existing styles) ... */
+
+.f1-news-list {
+  list-style: disc; // Standard bullet points
+  padding-left: 20px; // Adjust padding as needed for the bullet indent
+  margin-left: 0; // Ensure no default browser margin pushes the bullets too far
+
+  li {
+    display: flex;       // Use flexbox for alignment
+    align-items: baseline; // Aligns items at their text baseline
+    margin-bottom: 0.5em; // Space between list items
+    line-height: 1.4;    // Adjust line height
+
+    .f1-news-title {
+      flex-grow: 1;      // Allows the title to take up available space
+      flex-shrink: 1;    // Allows the title to shrink if needed
+      margin-right: 15px; // Space between title and date
+      // Optional: if titles are very long, you might want to truncate or wrap
+      // white-space: normal; // Default, ensures wrapping
+    }
+
+    .f1-news-date {
+      flex-shrink: 0;        // Prevents the date from shrinking
+      text-align: right;     // Align date to the right within its reserved space
+      width: 90px;           // <--- ADJUST THIS WIDTH. This is the key for alignment.
+                             // Make it wide enough for the longest date string (e.g., "YYYY-MM-DD")
+      font-style: italic;
+      color: #555;
+    }
+  }
+}
