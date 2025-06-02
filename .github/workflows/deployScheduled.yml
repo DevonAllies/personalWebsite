@@ -53,8 +53,8 @@ jobs:
           sudo mkdir -p /opt/quarto/${QUARTO_VERSION}
           sudo tar -xvzf "quarto-${QUARTO_VERSION}-linux-amd64.tar.gz" -C /opt/quarto/${QUARTO_VERSION} --strip-components=1
           
-          # Add Quarto's bin directory to the PATH for the current job
-          echo "/opt/quarto/${QUARTO_VERSION}/bin" >> $GITHUB_PATH
+          # Add Quarto's bin directory to the PATH for all subsequent steps in this job
+          echo "/opt/quarto/${QUARTO_VERSION}/bin" >> $GITHUB_PATH # THIS IS THE CORRECT LINE
           
           echo "Verifying Quarto installation..."
           quarto --version
