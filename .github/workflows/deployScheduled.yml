@@ -1,16 +1,16 @@
 name: Render & Deploy Quarto Website (Scheduled)
 
-on:
+on: # Line 3: Ensure this 'on:' is at the very beginning of the line (no spaces before it)
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
   schedule:
     # Runs every day at 02:00 SAST (00:00 UTC)
     # Learn more about cron syntax: https://crontab.guru/
     - cron: '0 0 * * *' # UTC time, adjust for your desired SAST time
 
-  # Optional: Also run on push to main branch (useful for dev)
-   push:
-     branches:
-       - main
+  # Run on push to main branch (UNCOMMENTED AND CORRECTLY INDENTED)
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
