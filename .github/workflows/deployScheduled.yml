@@ -1,14 +1,13 @@
 name: Render & Deploy Quarto Website (Scheduled)
 
-on: # Line 3: Ensure this 'on:' is at the very beginning of the line (no spaces before it)
+on:
   workflow_dispatch: # Allows manual trigger from GitHub Actions tab
   schedule:
-    # Runs every day at 02:00 SAST (00:00 UTC)
+    # Runs every day at 00:00 UTC (02:00 SAST)
     # Learn more about cron syntax: https://crontab.guru/
-    - cron: '0 0 * * *' # UTC time, adjust for your desired SAST time
+    - cron: '0 0 * * *'
 
-  # Run on push to main branch (UNCOMMENTED AND CORRECTLY INDENTED)
-  push:
+  push: # Trigger on push to main branch
     branches:
       - main
 
@@ -43,8 +42,8 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-action@v2
         with:
-          version: latest # Or a specific version like '1.4.0'
-          # pin-github-pages-version: true # Recommended for consistency
+          version: 1.4.550 # Explicitly set a stable Quarto version
+          # pin-github-pages-version: true # Keep commented unless specifically needed
 
       - name: Render Quarto project
         run: quarto render
