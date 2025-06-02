@@ -8,9 +8,9 @@ on:
     - cron: '0 0 * * *' # UTC time, adjust for your desired SAST time
 
   # Optional: Also run on push to main branch (useful for dev)
-  # push:
-  #   branches:
-  #     - main
+   push:
+     branches:
+       - main
 
 jobs:
   build-and-deploy:
